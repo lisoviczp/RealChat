@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	{% block bodyblock %}
+
+	<h1>Users</h1>
+	<div class="list-users">
+
+		<!-- This is our list of users -->
+		<ul id="notifications">
+		    {% for each_user in object_list %}
+		    	<li><a href="/user_page/{{ each_user.id }} ">{{ each_user.username }}</a></li>
+		    	<li> {{ each_user.email }} </li>
+			    <hr>
+		    {% endfor %}
+		</ul>
+	</div>
+
+	{% endblock %}
+{% endblock %}

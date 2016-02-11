@@ -1,0 +1,71 @@
+
+li {
+    list-style-type:none;
+}
+
+.recent-messages, .list-users {
+	border: 1px solid gray;
+	width: 70%;
+	margin-left: 15%;
+	padding: 2em;
+}
+
+h1 {
+	text-align: center;
+}
+
+.message_form {
+	text-align: center;
+	width: 30%;
+    list-style:none;
+	margin-left: 35%;
+}
+
+.navbar.navbar {
+	border-bottom: 1px solid black;
+}
+
+#detail {
+	font-weight: bold;
+	display: inline;
+}
+
+.large-textbox {
+	width: 30em;
+	height:5em;
+	padding:2px;
+}
+
+#alternate_color { 
+	background-color: lightblue;
+	padding: 2em;
+}
+
+.comment-container {
+	/*width: 80%;*/
+	/*margin-left: 10%;*/
+	border: 1px solid gray;
+	padding: 4em;
+}
+.created {
+	font-size: 0.8em;
+	display: inline-block;
+}
+h2.commentAuthor {
+	display: inline-block;
+}
+input#comment-text {
+	width: 25em;
+	height: 10em;
+}
+textarea {
+	resize: none;  	
+	/*width: 45em;*/
+	width: 100%;
+	height: 10em;
+}
+
+.message-container {
+  width: 80%;
+  margin-left: 10%;
+}
